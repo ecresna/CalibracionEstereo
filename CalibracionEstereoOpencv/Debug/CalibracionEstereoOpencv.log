@@ -1,0 +1,27 @@
+﻿Compilación iniciada a las 05/05/2017 1:30:48.
+     1>Proyecto "D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\CalibracionEstereoOpencv\CalibracionEstereoOpencv.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\opencv2411\opencv\build\x86\vc11\..\..\include\opencv\ /IC:\opencv2411\opencv\build\x86\vc11\..\..\include\opencv2\ /IC:\opencv2411\opencv\build\x86\vc11\..\..\include\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\CalibracionEstereoOpencv.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt EstereoCalibrate.cpp
+         EstereoCalibrate.cpp
+     1>d:\mis documentos\visual studio 2012\projects\calibracionestereo - copia\calibracionestereoopencv\estereocalibrate.cpp(599): warning C4800: 'int' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>d:\mis documentos\visual studio 2012\projects\calibracionestereo - copia\calibracionestereoopencv\estereocalibrate.cpp(603): warning C4018: '<' : no coinciden signed/unsigned
+     1>d:\mis documentos\visual studio 2012\projects\calibracionestereo - copia\calibracionestereoopencv\estereocalibrate.cpp(1018): warning C4018: '<' : no coinciden signed/unsigned
+     1>d:\mis documentos\visual studio 2012\projects\calibracionestereo - copia\calibracionestereoopencv\estereocalibrate.cpp(1054): warning C4018: '<' : no coinciden signed/unsigned
+     1>d:\mis documentos\visual studio 2012\projects\calibracionestereo - copia\calibracionestereoopencv\estereocalibrate.cpp(1117): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>d:\mis documentos\visual studio 2012\projects\calibracionestereo - copia\calibracionestereoopencv\estereocalibrate.cpp(1122): warning C4244: 'return' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>d:\mis documentos\visual studio 2012\projects\calibracionestereo - copia\calibracionestereoopencv\estereocalibrate.cpp(1264): warning C4018: '<' : no coinciden signed/unsigned
+     1>d:\mis documentos\visual studio 2012\projects\calibracionestereo - copia\calibracionestereoopencv\estereocalibrate.cpp(1357): warning C4244: 'argumento' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>d:\mis documentos\visual studio 2012\projects\calibracionestereo - copia\calibracionestereoopencv\estereocalibrate.cpp(1446): warning C4018: '<' : no coinciden signed/unsigned
+     1>d:\mis documentos\visual studio 2012\projects\calibracionestereo - copia\calibracionestereoopencv\estereocalibrate.cpp(1541): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>d:\mis documentos\visual studio 2012\projects\calibracionestereo - copia\calibracionestereoopencv\estereocalibrate.cpp(1543): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>d:\mis documentos\visual studio 2012\projects\calibracionestereo - copia\calibracionestereoopencv\estereocalibrate.cpp(914): warning C4715: 'EstereoCalibrate::cargaFichero' : no todas las rutas de acceso de control devuelven un valor
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\Debug\CalibracionEstereoOpencv.lib" /NOLOGO Debug\CalibracionOpencvClase.obj
+         Debug\EstereoCalibrate.obj
+         Debug\stdafx.obj
+         CalibracionEstereoOpencv.vcxproj -> D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\Debug\CalibracionEstereoOpencv.lib
+     1>Compilación del proyecto terminada "D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\CalibracionEstereoOpencv\CalibracionEstereoOpencv.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:03.45

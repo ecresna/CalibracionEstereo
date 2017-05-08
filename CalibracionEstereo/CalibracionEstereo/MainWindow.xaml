@@ -1,0 +1,47 @@
+﻿<Window x:Class="CalibracionEstereo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ Title="MainWindow" Height="564.099" Width="1334.47">
+    <Grid Margin="0,0,40,3" RenderTransformOrigin="0.5,0.544">
+        <Button Content="carpeta RGB" Name="BotonRGB" HorizontalAlignment="Left" Height="44" Margin="33,58,0,0" VerticalAlignment="Top" Width="151" Click="BotonRGB_Click" />
+        <Button Content="Carpeta IR" x:Name="BotonIR" HorizontalAlignment="Left" Height="41" Margin="33,117,0,0" VerticalAlignment="Top" Width="151" Click="BotonByte_Click"/>
+        <Label Content="carpeta RGB" FontSize="8" Name="label_RGB" HorizontalAlignment="Left" Height="34" Margin="268,58,0,0" VerticalAlignment="Top" Width="227"/>
+        <Button Content="Go!" Name="Start" HorizontalAlignment="Left" Height="71" Margin="33,334,0,0" VerticalAlignment="Top" Width="227" Click="Start_Click"/>
+        <Label Content="Carpeta IR" FontSize="8" x:Name="label_IR" HorizontalAlignment="Left" Height="41" Margin="268,117,0,0" VerticalAlignment="Top" Width="227"/>
+        <ComboBox HorizontalAlignment="Left" Name="comboCamaras" Height="35" Margin="799,450,0,0" VerticalAlignment="Top" Width="151" SelectionChanged="comboCamaras_SelectionChanged"/>
+        <Label Content="Estado Actual" HorizontalAlignment="Left" x:Name="label_estado" Height="56" Margin="21,433,0,0" VerticalAlignment="Top" Width="439" Background="#FFD0D4D3" FontSize="20" FontWeight="Bold" TextBlock.TextAlignment="Center"/>
+        <Button x:Name="botonArchivoSettings" Content="XML RGB" HorizontalAlignment="Left" Height="43" Margin="33,185,0,0" VerticalAlignment="Top" Width="151" Click="botonArchivoSettings_Click"/>
+        <Label x:Name="labelXML_RGB" FontSize="8" Content="archivo calibración" HorizontalAlignment="Left" Height="43" Margin="268,176,0,0" VerticalAlignment="Top" Width="193"/>
+        <Button Content="XML IR" HorizontalAlignment="Left" Height="43" Margin="33,241,0,0" VerticalAlignment="Top" Width="151" Click="Button_Click_1"/>
+        <Label x:Name="labelXML_IR" FontSize="8" Content="archivo calibración" HorizontalAlignment="Left" Height="43" Margin="268,241,0,0" VerticalAlignment="Top" Width="193"/>
+        <CheckBox x:Name="checkboxMatricesImportadas" Content="Calibración Estéreo con matrices ya calculadas" HorizontalAlignment="Left" Height="21" Margin="21,20,0,0" VerticalAlignment="Top" Width="296" FontWeight="Bold" Checked="checkboxMatricesImportadas_Checked"/>
+        <CheckBox x:Name="checkBox_Calibracion" Content="Calibración Estéreo AUTO" HorizontalAlignment="Left" Height="21" Margin="478,11,0,0" VerticalAlignment="Top" Width="182" FontWeight="Bold" Checked="checkBox_Calibracion_Checked"/>
+        <Button Content="carpeta Calibración RGB" x:Name="Boton_calibracion" HorizontalAlignment="Left" Height="44" Margin="495,59,0,0" VerticalAlignment="Top" Width="151" Click="Boton_calibracion_Click" />
+        <Label Content="carpeta Calibración" FontSize="10" x:Name="label_calibracion" HorizontalAlignment="Left" Height="34" Margin="676,68,0,0" VerticalAlignment="Top" Width="429"/>
+        <ComboBox HorizontalAlignment="Left" Name="comboFilas" Height="30" Margin="490,347,0,0" VerticalAlignment="Top" Width="58" SelectionChanged="comboFilas_SelectionChanged">
+
+        </ComboBox>
+        <ComboBox HorizontalAlignment="Left" Name="comboCols" Height="30" Margin="579,347,0,0" VerticalAlignment="Top" Width="57" SelectionChanged="comboCols_SelectionChanged"/>
+        <Label Content="filas" FontWeight="Bold" HorizontalAlignment="Left" Height="27" Margin="503,306,0,0" VerticalAlignment="Top" Width="58"/>
+        <Label Content="cols"  FontWeight="Bold" HorizontalAlignment="Left" Height="27" Margin="592,306,0,0" VerticalAlignment="Top" Width="58"/>
+        <Label Content="archivo" FontWeight="Bold" HorizontalAlignment="Left" Height="27" Margin="691,306,0,0" VerticalAlignment="Top" Width="58"/>
+        <Label Content="tamaño cuadro&#xD;&#xA;" HorizontalAlignment="Left" Height="27" Margin="786,306,0,0" VerticalAlignment="Top" Width="98"/>
+        <ComboBox HorizontalAlignment="Left" Name="comboReescalado" Height="30" Margin="503,454,0,0" VerticalAlignment="Top" Width="217" SelectionChanged="comboReescalado_SelectionChanged">
+            <ComboBoxItem Content="Ninguno" Height="100" Width="100"/>
+            <ComboBoxItem Content="Auto Nacho" Height="100" Width="100"/>
+
+        </ComboBox>
+        <Label Content="Reescalado" FontWeight="Bold" HorizontalAlignment="Left" Height="27" Margin="503,427,0,0" VerticalAlignment="Top" Width="110"/>
+        <Label Content="carpeta Desdistorsión" FontSize="10" x:Name="label_desdistorsion" HorizontalAlignment="Left" Height="34" Margin="500,117,0,0" VerticalAlignment="Top" Width="543"/>
+        <Button Content="carpeta Calibración IR" x:Name="Boton_calibracion_Copy" HorizontalAlignment="Left" Height="44" Margin="495,162,0,0" VerticalAlignment="Top" Width="151" Click="Boton_calibracionIR_Click" />
+        <Label Content="carpeta CalibraciónIR" FontSize="10" x:Name="label_calibracion_IR" HorizontalAlignment="Left" Height="34" Margin="676,171,0,0" VerticalAlignment="Top" Width="434"/>
+        <Label Content="carpeta DesdistorsiónIR" FontSize="10" x:Name="label_desdistorsion_IR" HorizontalAlignment="Left" Height="34" Margin="495,220,0,0" VerticalAlignment="Top" Width="548"/>
+        <Label Content="Cámaras disponibles" FontWeight="Bold" HorizontalAlignment="Left" Height="27" Margin="799,418,0,0" VerticalAlignment="Top" Width="151"/>
+        <Label Content="Tipo de Calibración" FontWeight="Bold" HorizontalAlignment="Left" Margin="1120,37,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="textBox_tamaño_cuadros" HorizontalAlignment="Left" Height="35" Margin="799,347,0,0" TextWrapping="NoWrap" Text="" VerticalAlignment="Top" TextAlignment="Center" Width="58" FontSize="14"/>
+        <Label Content=".png" HorizontalAlignment="Left" Height="32" Margin="691,345,0,0" VerticalAlignment="Top" Width="58" Background="LightGray"/>
+        <CheckBox Name="checkBoxCalibracionIndividual" Content="Calibracion Individual" HorizontalAlignment="Left" Height="21" Margin="478,37,0,0" VerticalAlignment="Top" Width="211" TextElement.FontWeight="Bold" Checked="checkBoxCalibracionIndividual_Checked"/>
+        <Label FontSize="70" Name="tipoCal" Content="" HorizontalAlignment="Left" Height="144" Margin="1110,76,0,0" VerticalAlignment="Top" Width="141"/>
+
+    </Grid>
+</Window>

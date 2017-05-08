@@ -1,0 +1,14 @@
+﻿Compilación iniciada a las 23/05/2016 13:29:49.
+     1>Proyecto "C:\Users\shapeme3d\documents\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereoOpencv\CalibracionEstereoOpencv.vcxproj" en el nodo 3 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\opencv2411\opencv\build\x86\vc11\..\..\include\opencv\ /IC:\opencv2411\opencv\build\x86\vc11\..\..\include\opencv2\ /IC:\opencv2411\opencv\build\x86\vc11\..\..\include\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\CalibracionEstereoOpencv.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CalibracionEstereo.cpp
+         CalibracionEstereo.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\shapeme3d\documents\Visual Studio 2012\Projects\CalibracionEstereo\Debug\CalibracionEstereoOpencv.lib" /NOLOGO Debug\CalibracionEstereo.obj
+         Debug\stdafx.obj
+         CalibracionEstereoOpencv.vcxproj -> C:\Users\shapeme3d\documents\Visual Studio 2012\Projects\CalibracionEstereo\Debug\CalibracionEstereoOpencv.lib
+     1>Compilación del proyecto terminada "C:\Users\shapeme3d\documents\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereoOpencv\CalibracionEstereoOpencv.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.47

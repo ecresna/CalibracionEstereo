@@ -1,0 +1,53 @@
+
+Uso de Calibracion.
+
+Listado de ID de las Kinects en un archivo .xml  en la carpeta donde está el .exe del programa de Calibración en Release. (Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\CalibracionEstereo\bin\Release)
+
+Las carpetas con las imagenes de calibración tienen que tener esta estructura:
+
+RGB--
+    |->desdist
+	|->desdist2
+
+IR--
+    |->desdist
+	|->desdist2
+	
+	
+En desdist se alojan las imágenes desdistorsionadas SIN reescalar.
+En desdist2 se alojan las imagenes desdistorsionadas reescaladas.
+
+1ª Calibracion Individual
+- Se marca la casilla de calibracion individual.
+- Se selecciona la cámara que se va a hacer la calibración.
+- Se selecciona una carpeta donde se alojen las imágenes RGB o IR.
+- SIN REESCALADO.
+- GO!
+
+2ª Calibracion Individual
+
+- Se selecciona REESCALADO AUTO NACHO.
+- Se selecciona una carpeta donde se alojen las imágenes RGB o IR.
+- GO!
+
+Las imagenes contenidas en RGB-->desdist2 serán ahora imágenes corregidas y reescaladas.
+
+
+Calibración Estéreo con matrices ya calculadas
+- Se marca la casilla de "Calibración Estéreo con matrices ya calculadas".
+- Se selecciona una carpeta donde se alojen las imágenes RGB-->desdist2.
+- Se selecciona una carpeta donde se alojen las imágenes IR -->desdist2.
+- Se selecciona el archivo donde se alojen el XMLRGB reeescalado.
+- Se selecciona el archivo donde se alojen el XMLIR reeescalado. 
+- El tamaño del cuadro del damero ha de ser 30.0 mm para esta calibración estéreo, en el caso de usar otro damero para el estéreo, se cambia el tamaño.
+- REESCALADO "AUTO NACHO".
+
+Los resultados de las calibraciones están en las carpetas correspondientes en C:\
+
+
+
+
+
+
+
+	

@@ -1,0 +1,26 @@
+﻿Compilación iniciada a las 05/05/2017 0:29:45.
+     1>Proyecto "D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\CalibracionEstereoOpencv\CalibracionEstereoOpencv.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\opencv2411\opencv\build\x86\vc11\..\..\include\opencv\ /IC:\opencv2411\opencv\build\x86\vc11\..\..\include\opencv2\ /IC:\opencv2411\opencv\build\x86\vc11\..\..\include\ /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\CalibracionEstereoOpencv.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt EstereoCalibrate.cpp
+         EstereoCalibrate.cpp
+     1>EstereoCalibrate.cpp(591): warning C4800: 'int' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>EstereoCalibrate.cpp(595): warning C4018: '<' : no coinciden signed/unsigned
+     1>EstereoCalibrate.cpp(1010): warning C4018: '<' : no coinciden signed/unsigned
+     1>EstereoCalibrate.cpp(1046): warning C4018: '<' : no coinciden signed/unsigned
+     1>EstereoCalibrate.cpp(1109): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>EstereoCalibrate.cpp(1114): warning C4244: 'return' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>EstereoCalibrate.cpp(1256): warning C4018: '<' : no coinciden signed/unsigned
+     1>EstereoCalibrate.cpp(1349): warning C4244: 'argumento' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>EstereoCalibrate.cpp(1438): warning C4018: '<' : no coinciden signed/unsigned
+     1>EstereoCalibrate.cpp(1533): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>EstereoCalibrate.cpp(1535): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\Release\CalibracionEstereoOpencv.lib" /NOLOGO /LTCG Release\CalibracionOpencvClase.obj
+         Release\EstereoCalibrate.obj
+         Release\stdafx.obj
+         CalibracionEstereoOpencv.vcxproj -> D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\Release\CalibracionEstereoOpencv.lib
+     1>Compilación del proyecto terminada "D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\CalibracionEstereoOpencv\CalibracionEstereoOpencv.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:02.69

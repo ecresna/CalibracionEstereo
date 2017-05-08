@@ -1,0 +1,47 @@
+c:\users\shapeme3d\documents\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\bin\Debug\CalibracionEstereo.exe.config
+C:\Users\shapeme3d\documents\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\obj\Debug\CalibracionEstereo.csprojResolveAssemblyReference.cache
+C:\Users\shapeme3d\documents\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\obj\Debug\MainWindow.baml
+C:\Users\shapeme3d\documents\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\obj\Debug\MainWindow.g.cs
+C:\Users\shapeme3d\documents\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\obj\Debug\App.g.cs
+C:\Users\shapeme3d\documents\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\obj\Debug\CalibracionEstereo_MarkupCompile.cache
+C:\Users\shapeme3d\documents\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\obj\Debug\CalibracionEstereo.g.resources
+C:\Users\shapeme3d\documents\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\obj\Debug\CalibracionEstereo.Properties.Resources.resources
+C:\Users\shapeme3d\documents\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\obj\Debug\CalibracionEstereo.csproj.GenerateResource.Cache
+C:\Users\shapeme3d\documents\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\bin\Debug\CalibracionEstereo.exe
+C:\Users\shapeme3d\documents\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\bin\Debug\CalibracionEstereo.pdb
+C:\Users\shapeme3d\documents\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\bin\Debug\WrapperCalibracion.dll
+C:\Users\shapeme3d\documents\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\bin\Debug\WrapperCalibracion.pdb
+C:\Users\shapeme3d\documents\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\obj\Debug\CalibracionEstereo.exe
+C:\Users\shapeme3d\documents\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\obj\Debug\CalibracionEstereo.pdb
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\CalibracionEstereo\bin\Debug\CalibracionEstereo.exe.config
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\CalibracionEstereo\bin\Debug\CalibracionEstereo.exe
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\CalibracionEstereo\bin\Debug\CalibracionEstereo.pdb
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\CalibracionEstereo\bin\Debug\WrapperCalibracion.dll
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\CalibracionEstereo\bin\Debug\WrapperCalibracion.pdb
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\CalibracionEstereo\obj\Debug\CalibracionEstereo.csprojResolveAssemblyReference.cache
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\CalibracionEstereo\obj\Debug\MainWindow.baml
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\CalibracionEstereo\obj\Debug\MainWindow.g.cs
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\CalibracionEstereo\obj\Debug\App.g.cs
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\CalibracionEstereo\obj\Debug\CalibracionEstereo_MarkupCompile.cache
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\CalibracionEstereo\obj\Debug\CalibracionEstereo.g.resources
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\CalibracionEstereo\obj\Debug\CalibracionEstereo.Properties.Resources.resources
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\CalibracionEstereo\obj\Debug\CalibracionEstereo.csproj.GenerateResource.Cache
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\CalibracionEstereo\obj\Debug\CalibracionEstereo.exe
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\CalibracionEstereo\obj\Debug\CalibracionEstereo.pdb
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo\CalibracionEstereo\CalibracionEstereo\bin\Debug\NumericComparer.dll
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\CalibracionEstereo\CalibracionEstereo\bin\Debug\CalibracionEstereo.exe.config
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\CalibracionEstereo\CalibracionEstereo\bin\Debug\CalibracionEstereo.exe
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\CalibracionEstereo\CalibracionEstereo\bin\Debug\CalibracionEstereo.pdb
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\CalibracionEstereo\CalibracionEstereo\bin\Debug\NumericComparer.dll
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\CalibracionEstereo\CalibracionEstereo\bin\Debug\WrapperCalibracion.dll
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\CalibracionEstereo\CalibracionEstereo\bin\Debug\WrapperCalibracion.pdb
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\CalibracionEstereo\CalibracionEstereo\obj\Debug\CalibracionEstereo.csprojResolveAssemblyReference.cache
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\CalibracionEstereo\CalibracionEstereo\obj\Debug\MainWindow.baml
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\CalibracionEstereo\CalibracionEstereo\obj\Debug\MainWindow.g.cs
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\CalibracionEstereo\CalibracionEstereo\obj\Debug\App.g.cs
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\CalibracionEstereo\CalibracionEstereo\obj\Debug\CalibracionEstereo_MarkupCompile.cache
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\CalibracionEstereo\CalibracionEstereo\obj\Debug\CalibracionEstereo.g.resources
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\CalibracionEstereo\CalibracionEstereo\obj\Debug\CalibracionEstereo.Properties.Resources.resources
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\CalibracionEstereo\CalibracionEstereo\obj\Debug\CalibracionEstereo.csproj.GenerateResource.Cache
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\CalibracionEstereo\CalibracionEstereo\obj\Debug\CalibracionEstereo.exe
+D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\CalibracionEstereo\CalibracionEstereo\obj\Debug\CalibracionEstereo.pdb
