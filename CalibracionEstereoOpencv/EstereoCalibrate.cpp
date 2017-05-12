@@ -233,7 +233,7 @@ bool EstereoCalibrate::EncuentraEsquinas(Mat &grayRGB,Mat &RGB,Mat &grayIR,Mat &
 					CalculaSubPix(grayRGB,cornersRGB);
 					
 				}
-				
+				//esto es una prueba para el gitdbdfbsdfbdfbdfbdfb
 
 				this->found2 = findChessboardCorners(grayIR, board_sz, cornersIR, 0/*CALIB_CB_FAST_CHECK+*/ /*CALIB_CB_ADAPTIVE_THRESH*/ /*+*/ /*CALIB_CB_NORMALIZE_IMAGE+*/ /*CV_CALIB_CB_FILTER_QUADS*/);	
 				if (found2)	
@@ -586,40 +586,9 @@ bool EstereoCalibrate::calibracionCamara(Mat &imgRGB)	//(izquierda,derecha)
 					//Camara 1
 					vector<float> reprojErrs1,reprojErrs2;
 					double errorGordo=computeReprojectionErrors(object_points,imagePointsRGB,this->rvecs,this->tvecs,CM1,D1,reprojErrs1);
-
-					FileStorage fs;
-					string tipoCalibracion;
-					if (tipoCal=="Cal_IR")
-					{
-						tipoCalibracion="C:\\BOOTH\\Calib\\Geo\\IR";
-					}
-					else
-					{
-						tipoCalibracion="C:\\BOOTH\\Calib\\Geo\\RGB";
-					}
-					fs.open(tipoCalibracion+ "\\errores_"+serieCam1+".yml",FileStorage::WRITE);
-					if(!fs.isOpened())
-		{
-			errorLectura=-1;
-			return errorLectura;
-		}
-					fs<<"Errores Individuales"<<1;
-					int contador=0;
-					for(int j=0;j<indicesResultado.size();j++)
-					{
-						if (indicesResultado[j]==1)
-						{
-							fs<<"tablero "+to_string(j)<<(reprojErrs1[contador]);
-							contador++;
-						}
-						else{
-							fs<<"tablero "+to_string(j)<< "NULO";
-							
-						}
-						
-					}
-					fs<<"Error gordo"<<errorGordo;
-					fs.release();
+					
+					// Escribe errores individuales en disco
+					escribirErrores(tipoCal,reprojErrs1,errorGordo);
 
 					cout<<"CM1"<<endl;
 					cout<<CM1<<endl;
@@ -1541,6 +1510,43 @@ void EstereoCalibrate::setmapeado(Mat &imIzquierda,Mat &imIzquierdaTransf, doubl
 	
 	imagenRecortada = imagen(rect);
 }
+
+  int  EstereoCalibrate::escribirErrores(string tipoCal,vector<float> reprojErrs1,double errorGordo)
+  {
+					FileStorage fs;
+					string tipoCalibracion;
+					if (tipoCal=="Cal_IR")
+					{
+						tipoCalibracion="C:\\BOOTH\\Calib\\Geo\\IR";
+					}
+					else
+					{
+						tipoCalibracion="C:\\BOOTH\\Calib\\Geo\\RGB";
+					}
+					fs.open(tipoCalibracion+ "\\errores_"+serieCam1+".yml",FileStorage::WRITE);
+					if(!fs.isOpened())
+		{
+			errorLectura=-1;
+			return errorLectura;
+		}
+					fs<<"Errores Individuales"<<1;
+					int contador=0;
+					for(int j=0;j<indicesResultado.size();j++)
+					{
+						if (indicesResultado[j]==1)
+						{
+							fs<<"tablero "+to_string(j)<<(reprojErrs1[contador]);
+							contador++;
+						}
+						else{
+							fs<<"tablero "+to_string(j)<< "NULO";
+							
+						}
+						
+					}
+					fs<<"Error gordo"<<errorGordo;
+					fs.release();
+  }
 
   //setter desfase
 	void EstereoCalibrate::setDesfasey(int desfasey){this->desfasey=desfasey;}

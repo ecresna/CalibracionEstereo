@@ -1,19 +1,19 @@
-﻿Compilación iniciada a las 11/05/2017 0:20:06.
+﻿Compilación iniciada a las 12/05/2017 17:53:56.
      1>Proyecto "D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\CalibracionEstereoOpencv\CalibracionEstereoOpencv.vcxproj" en el nodo 2 (Build destinos).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\opencv2411\opencv\build\x86\vc11\..\..\include\opencv\ /IC:\opencv2411\opencv\build\x86\vc11\..\..\include\opencv2\ /IC:\opencv2411\opencv\build\x86\vc11\..\..\include\ /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\CalibracionEstereoOpencv.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt EstereoCalibrate.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\opencv2411\opencv\build\x86\vc11\..\..\include\opencv\ /IC:\opencv2411\opencv\build\x86\vc11\..\..\include\opencv2\ /IC:\opencv2411\opencv\build\x86\vc11\..\..\include\ /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\CalibracionEstereoOpencv.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CalibracionOpencvClase.cpp EstereoCalibrate.cpp
+         CalibracionOpencvClase.cpp
          EstereoCalibrate.cpp
-     1>EstereoCalibrate.cpp(603): warning C4800: 'int' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
-     1>EstereoCalibrate.cpp(607): warning C4018: '<' : no coinciden signed/unsigned
-     1>EstereoCalibrate.cpp(1022): warning C4018: '<' : no coinciden signed/unsigned
-     1>EstereoCalibrate.cpp(1058): warning C4018: '<' : no coinciden signed/unsigned
-     1>EstereoCalibrate.cpp(1121): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
-     1>EstereoCalibrate.cpp(1126): warning C4244: 'return' : conversión de 'float' a 'int'; posible pérdida de datos
-     1>EstereoCalibrate.cpp(1268): warning C4018: '<' : no coinciden signed/unsigned
-     1>EstereoCalibrate.cpp(1361): warning C4244: 'argumento' : conversión de 'double' a 'float'; posible pérdida de datos
-     1>EstereoCalibrate.cpp(1450): warning C4018: '<' : no coinciden signed/unsigned
-     1>EstereoCalibrate.cpp(1545): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
-     1>EstereoCalibrate.cpp(1547): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>EstereoCalibrate.cpp(992): warning C4018: '<' : no coinciden signed/unsigned
+     1>EstereoCalibrate.cpp(1028): warning C4018: '<' : no coinciden signed/unsigned
+     1>EstereoCalibrate.cpp(1091): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>EstereoCalibrate.cpp(1096): warning C4244: 'return' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>EstereoCalibrate.cpp(1238): warning C4018: '<' : no coinciden signed/unsigned
+     1>EstereoCalibrate.cpp(1331): warning C4244: 'argumento' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>EstereoCalibrate.cpp(1420): warning C4018: '<' : no coinciden signed/unsigned
+     1>EstereoCalibrate.cpp(1534): warning C4018: '<' : no coinciden signed/unsigned
+     1>EstereoCalibrate.cpp(1552): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>EstereoCalibrate.cpp(1554): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
        Lib:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\Release\CalibracionEstereoOpencv.lib" /NOLOGO /LTCG Release\CalibracionOpencvClase.obj
          Release\EstereoCalibrate.obj
@@ -23,4 +23,4 @@
 
 Compilación correcta.
 
-Tiempo transcurrido 00:00:04.79
+Tiempo transcurrido 00:00:05.54

@@ -1,4 +1,4 @@
-﻿Compilación iniciada a las 11/05/2017 0:20:11.
+﻿Compilación iniciada a las 12/05/2017 17:54:03.
      1>Proyecto "D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\WrapperCalibracion\WrapperCalibracion.vcxproj" en el nodo 2 (Build destinos).
      1>Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\Release\WrapperCalibracion.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\opencv2411\opencv\build\x86\vc11\lib\ opencv_calib3d2411.lib opencv_core2411.lib opencv_features2d2411.lib opencv_highgui2411.lib opencv_imgproc2411.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\Release\WrapperCalibracion.pdb" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH /DLL Release\app.res
@@ -9,11 +9,12 @@
          "D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\Release\CalibracionEstereoOpencv.lib"
          CalibracionEstereoOpencv.lib(EstereoCalibrate.obj) : se encontró .netmodule MSIL o un módulo compilado con /GL; reiniciando la vinculación con /LTCG; agregue /LTCG a la línea de comandos de vínculo para mejorar el rendimiento del vinculador
          Generando c¾digo
-     1>d:\mis documentos\visual studio 2012\projects\calibracionestereo - copia\calibracionestereoopencv\estereocalibrate.cpp(918): warning C4715: 'EstereoCalibrate::cargaFichero' : no todas las rutas de acceso de control devuelven un valor
+     1>d:\mis documentos\visual studio 2012\projects\calibracionestereo - copia\calibracionestereoopencv\estereocalibrate.cpp(888): warning C4715: 'EstereoCalibrate::cargaFichero' : no todas las rutas de acceso de control devuelven un valor
+     1>d:\mis documentos\visual studio 2012\projects\calibracionestereo - copia\calibracionestereoopencv\estereocalibrate.cpp(1549): warning C4715: 'EstereoCalibrate::escribirErrores' : no todas las rutas de acceso de control devuelven un valor
          Generaci¾n de c¾digo finalizada
          WrapperCalibracion.vcxproj -> D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\Release\WrapperCalibracion.dll
      1>Compilación del proyecto terminada "D:\mis documentos\Visual Studio 2012\Projects\CalibracionEstereo - copia\WrapperCalibracion\WrapperCalibracion.vcxproj" (Build destinos).
 
 Compilación correcta.
 
-Tiempo transcurrido 00:01:09.78
+Tiempo transcurrido 00:00:10.53

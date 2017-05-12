@@ -209,6 +209,8 @@ public:
 	void setAltoImRecortadaBruto(int tamImrecortadaAltoBruto);
 	//setter recorte bruto
 	void setAnchoImRecortadaBruto(int tamImrecortadaAnchoBruto);
+	//escribir errores de calibracion
+	int EstereoCalibrate::escribirErrores(string tipoCal,vector <float> reprojErrs1,double errorGordo);
 
 	//error tablero
 	string tipoCal;
