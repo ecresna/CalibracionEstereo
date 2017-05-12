@@ -528,6 +528,10 @@ void ClaseIntermedia::programaPrincipal(std::vector<string> imagenesRGB,std::str
 			throw gcnew System::Exception("Fallo al hacer la calibracion: " );
 		
 		}
+		catch(...)
+		{
+			throw "Error general";
+		}
 		
 	//	imshow("Imagen RGB",imagen_reescalada);//representa la imagen en color
 		imshow("Imagen RGB",imagen_recortada);//representa la imagen en color

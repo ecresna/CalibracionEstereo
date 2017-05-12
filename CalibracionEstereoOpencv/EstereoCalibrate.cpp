@@ -225,7 +225,7 @@ bool EstereoCalibrate::EncuentraEsquinas(Mat &grayRGB,Mat &RGB,Mat &grayIR,Mat &
 				//corners1 ->IZQUIERDA
 		
 				//DAMERO
-				this->found1 = findChessboardCorners(grayRGB, board_sz, cornersRGB,/* CALIB_CB_FAST_CHECK+*/ CALIB_CB_ADAPTIVE_THRESH +/* CALIB_CB_NORMALIZE_IMAGE+*/ CV_CALIB_CB_FILTER_QUADS);	
+				this->found1 = findChessboardCorners(grayRGB, board_sz, cornersRGB,0/* CALIB_CB_FAST_CHECK+*/ /*CALIB_CB_ADAPTIVE_THRESH*/ /*+*//* CALIB_CB_NORMALIZE_IMAGE+*/ /*CV_CALIB_CB_FILTER_QUADS*/);	
 			
 				if (found1)	
 				{ 			
@@ -233,8 +233,9 @@ bool EstereoCalibrate::EncuentraEsquinas(Mat &grayRGB,Mat &RGB,Mat &grayIR,Mat &
 					CalculaSubPix(grayRGB,cornersRGB);
 					
 				}
+				
 
-				this->found2 = findChessboardCorners(grayIR, board_sz, cornersIR, /*CALIB_CB_FAST_CHECK+*/ CALIB_CB_ADAPTIVE_THRESH + /*CALIB_CB_NORMALIZE_IMAGE+*/ CV_CALIB_CB_FILTER_QUADS);	
+				this->found2 = findChessboardCorners(grayIR, board_sz, cornersIR, 0/*CALIB_CB_FAST_CHECK+*/ /*CALIB_CB_ADAPTIVE_THRESH*/ /*+*/ /*CALIB_CB_NORMALIZE_IMAGE+*/ /*CV_CALIB_CB_FILTER_QUADS*/);	
 				if (found2)	
 				{ 			
 					drawChessboardCorners(IR, board_sz, cornersIR,  this->found2); //IZQUIERDA
@@ -257,7 +258,7 @@ bool EstereoCalibrate::EncuentraEsquinas(Mat &grayRGB,Mat &RGB)
 	{
 				
 			   //DAMERO
-				this->found1 = findChessboardCorners(grayRGB, board_sz, cornersRGB,/* CALIB_CB_FAST_CHECK+*/ CALIB_CB_ADAPTIVE_THRESH + /*CALIB_CB_NORMALIZE_IMAGE+*/ CV_CALIB_CB_FILTER_QUADS);	
+				this->found1 = findChessboardCorners(grayRGB, board_sz, cornersRGB,0/* CALIB_CB_FAST_CHECK+*/ /*CALIB_CB_ADAPTIVE_THRESH*/ /*+*/ /*CALIB_CB_NORMALIZE_IMAGE+*//* CV_CALIB_CB_FILTER_QUADS*/);	
 			
 				if (found1)	
 				{ 			
@@ -276,6 +277,10 @@ bool EstereoCalibrate::EncuentraEsquinas(Mat &grayRGB,Mat &RGB)
 	{
 		throw error;
 		//cout<<"Error en FindChessboardCorners"<<endl;
+	}
+	catch(...)
+	{
+		throw "Error en FindChessboardCorners";
 	}
 			
 }
